@@ -1,8 +1,8 @@
 // feetToMile
 
-function feetToMile (howMany){
-    var feet = howMany / 5280 +' Mile' ;
-    return feet;
+function feetToMile (feet){
+    var mile = howMany / 5280 +' Mile' ;
+    return mile;
 }
 console.log(feetToMile(18));
 console.log(feetToMile(28));
