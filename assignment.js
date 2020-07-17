@@ -1,7 +1,7 @@
 // feetToMile
 
 function feetToMile (feet){
-    var mile = howMany / 5280 +' Mile' ;
+    var mile = feet / 5280 +' Mile' ;
     return mile;
 }
 console.log(feetToMile(18));
@@ -34,5 +34,5 @@ function tinyFriend(friends) {
   }
   return shortName;
 }
-var tinyShortFriend = tinyFriend([ 'Tamim', 'Sabbir','anik','Mufti','Auporna',]);
+var tinyShortFriend = tinyFriend([ 'Tamim', 'Sabbir','anik','Mufti','my-love','koun']);
 console.log(tinyShortFriend);
